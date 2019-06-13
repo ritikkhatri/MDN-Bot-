@@ -1,5 +1,4 @@
 import React ,{Component} from 'react';
-import logo, { ReactComponent } from './logo.svg';
 import './App.css';
 import MDNBot_hi from './img/MDNBot_hi.svg';
 import './normalize.css';
@@ -7,6 +6,7 @@ import './style.css';
 
 
 class Navbar extends Component {
+
 	render(){
     return (	
     <div className="row header">

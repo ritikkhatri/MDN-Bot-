@@ -26,13 +26,15 @@ class Thanks extends Component{
                     <a href="/" title="MDNBot homepage" className="button"><i className="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;&nbsp;MDNBot homepage</a>
                 </section> 
             </div> 
-        </div> </div>
+        </div> 
+        </div>
             
         );
 
 }
 }
 export default Thanks;
+
 class Navbar extends Component {
     render(){
     return (	

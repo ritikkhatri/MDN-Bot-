@@ -34,9 +34,28 @@ class Intro extends Component {
 export default Intro;
 
 class HowToUse extends Component{
+	constructor(props){
+		super(props)
+		this.state={
+			Message :'',
+		}
+			
+		
+		this.handle =this.handle.bind(this);
+	}
+	handle(event){
+		this.setState({
+			Message : event.target.value
+		})
+
+	};
+	
     render(){
+		console.log(this.state.Message)
         return(
             <div>
+
+				<input onChange ={this.handle} ></input>
                 <div className="row instructions">
 			<div className="container">
 				<h2 className="grid-full section-title">How to use me...</h2>

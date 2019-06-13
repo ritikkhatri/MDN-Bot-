@@ -10,7 +10,7 @@ import MDNBot_hi from './img/MDNBot_hi.svg';
 
 class Privacy extends Component{
     render (){
-        return(
+        return( 
             <div>
                 <Navbar></Navbar>
             <div className="row instructions">

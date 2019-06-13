@@ -20,7 +20,6 @@ class Feedback extends Component {
                     display :'none',
                 }
             }
-
         }
         this.handleChange = this.handleChange.bind(this);
         this.handleClick = this.handleClick.bind(this);
@@ -60,13 +59,12 @@ class Feedback extends Component {
            window.open('/thanks',"_self")
         }
     }
-
 	render(){
-		return(<div>
+		return(
+        <div>
             <Navbar></Navbar>
 			<div className="row support">
             <div className="container grid-full">
-               
                 <section id="form" className="grid-full">
                     <div className="bot-image bot-image-support"><img src={MDNBot_support} alt="MDNBot commands" ></img></div>
                     <div className="form">
@@ -91,8 +89,6 @@ class Feedback extends Component {
             </div> 
         </div>
         </div>
-				
-				
 		);
 	}
 }
